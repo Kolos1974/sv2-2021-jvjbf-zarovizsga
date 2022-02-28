@@ -42,7 +42,7 @@ class ShippingServiceTest {
 
     }
 
-    /*
+
     @Test
     void testCollectItemsByBreakableAndWeight(){
         List<Transportable> result = shippingService.collectItemsByBreakableAndWeight(true,21);
@@ -70,6 +70,7 @@ class ShippingServiceTest {
         assertEquals(1,result.get("England"));
     }
 
+
     @Test
     void testSortInternationalPackagesByDistance(){
         List<Transportable> result = shippingService.sortInternationalPackagesByDistance();
@@ -87,6 +88,6 @@ class ShippingServiceTest {
         assertEquals("Slovakia",result.get(0).getDestinationCountry());
 
     }
-     */
+
 
 }
